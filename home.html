@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+   <head>
+      <title>Главная</title>
+      <meta charset="UTF-8">
+      <meta name="format-detection" content="telephone=no">
+      <!-- <style>body{opacity: 0;}</style> -->
+      <link rel="stylesheet" href="css/style.min.css?_v=20220606220931">
+      <link rel="shortcut icon" href="favicon.ico">
+      <!-- <meta name="robots" content="noindex, nofollow"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+   <body>
+      <div class="wrapper">
+         <header data-scroll="1" data-scroll-show="800" data-lp class="header">
+            <div class="header__container">
+               <a href="" class="header__logo"></a>
+               <div class="header__menu menu">
+                  <button type="button" class="menu__icon icon-menu"><span></span></button>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class="menu__item"><a data-goto-speed="2000" data-goto-top="30" data-goto-header data-goto=".page-navigation-test__block_1" href="" class="menu__link">Item 1</a></li>
+                        <li class="menu__item"><a data-goto-header data-goto=".page-navigation-test__block_2" href="" class="menu__link">Item 2</a></li>
+                        <li class="menu__item"><a data-goto-header data-goto=".page-navigation-test__block_3" href="" class="menu__link">Item 3</a></li>
+                        <li class="menu__item"><a data-goto-header data-goto=".page-navigation-test__block_4" href="" class="menu__link">Item 4</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <main class="page">
+            <div class='page__container'>
+               <svg>
+                  <use xlink:href="img/icons/icons.svg#svg-02"></use>
+               </svg>
+               <div class="block-text">
+                  Lorem, ipsum dolor <a href="#" data-popup="#popup" class="link">link on popup</a> amet consectetur adipisicing elit. Nesciunt, quia eius maxime, perspiciatis adipisci esse soluta fugit id illo quod facere consectetur earum commodi cumque optio. Ipsum suscipit quasi laboriosam?
+               </div>
+               <button class="button-video" type="button" data-popup="#video" data-popup-youtube="6S5Zw2WuyFE">Видео</button>
+               <div data-da=".block-text,768,last" class="dynamic-adapt">Некий текст</div>
+               <div class="page-navigation-test">
+                  <div data-watch="navigator" class="page-navigation-test__block page-navigation-test__block_1">
+                     Блок 1
+                  </div>
+                  <div data-watch="navigator" class="page-navigation-test__block page-navigation-test__block_2">
+                     Блок 2
+                  </div>
+                  <div data-watch="navigator" class="page-navigation-test__block page-navigation-test__block_3">
+                     Блок 3
+                  </div>
+                  <div data-watch="navigator" class="page-navigation-test__block page-navigation-test__block_4">
+                     Блок 4
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer__container">
+            </div>
+         </footer>
+      </div>
+      <div id="popup" aria-hidden="true" class="popup">
+         <div class="popup__wrapper">
+            <div class="popup__content">
+               <button data-close type="button" class="popup__close">Закрыть</button>
+               <div class="popup__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat omnis, aliquid cum, temporibus unde fugit voluptates hic dignissimos ea perspiciatis incidunt quo. Reiciendis sunt ad rerum sapiente mollitia molestiae.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="video" aria-hidden="true" class="popup">
+         <div class="popup__wrapper">
+            <div class="popup__content">
+               <button data-close type="button" class="popup__close">Закрыть</button>
+               <div data-youtube-place class="popup__text block-video-popup">
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/app.min.js?_v=20220606220931"></script>
+   </body>
+
+</html>
